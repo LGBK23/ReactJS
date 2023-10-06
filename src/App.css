@@ -1,0 +1,404 @@
+.member{
+  border: solid 3px rgb(56, 117, 230);
+  width: 20%;
+  text-align: center;
+  margin: auto;
+}
+.ten{
+  color: rgb(80, 136, 219);
+}
+.thanhvien{
+  font-size: x-large;
+}
+.VIP{
+  color:rgb(192, 158, 37);font-size: x-large;
+}
+.ngaythamgia{
+  font-size: x-large;
+}
+.head{
+  margin: 0 0 0 40px;
+  padding: 0 0 0 120px;
+  background-color: #fffcfc;
+}
+.batimkiem{
+  text-align: center;
+  /* padding-right: 10px; */
+  padding: 40px 0 0 0;
+  margin: 0px 0 0 -40px;
+}
+.batimkiem .timkiem{
+  border-radius: 20px;
+    height: 30px;
+    width: 450px;
+    
+}
+.dkdn{
+  
+  margin: 0 0 0 -100px;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+.baavatar .avatar{
+  width: 80%;
+  
+  padding: 20px 0 0 40px;
+}
+.baavatar{
+  text-align: center;
+  margin: 0 0 0 40px
+}
+.menucon{
+  padding: 0px 0 0 77px;
+}
+.bannercon{
+  margin: 0 0 0 100px;
+    width: 25%;
+}
+.banner{
+  background-color: #00000054;
+}
+.AnhBenner{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 0 50px;
+  height: 50px;
+  width: 80%;
+}
+
+.headerLoai{
+  
+}
+.lsp{
+  margin-left: -420px;
+  text-align: center;
+  padding: 16px 0 0 0;
+}
+.xtc{
+  margin-left: auto;
+  padding-top: 15px;
+  text-align: center;
+}
+.AnhSP{
+  width: 50%;
+}
+
+.SanPham{
+  border: 2px double black;
+  text-align: center;
+  margin: 10px;
+  width: 60%;
+  margin: 0 0 50px 70px;
+}
+
+.TopSP{
+  margin-top: 10px;
+  margin-bottom: -10px;
+  width: 60%;
+  margin-left: 45px;
+}
+
+.BottomSP{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  width: 60%;
+  margin-left: 45px;
+}
+
+.Center1SP{
+  margin-bottom: -10px;
+  width: 60%;
+  margin-left: 45px;
+}
+.Center2SP{
+  width: 60%;
+  margin-left: 45px;
+}
+
+.MenuSP{
+  text-align: center;
+}
+.menu{
+ 
+  margin: 0 0 40px -120px;
+    text-align: center;
+}
+.Hbanner{
+  text-align: center;
+  
+  background-color: #c5e4fd;
+}
+.bodyhead{
+  text-align: center;
+    margin: 0 0 20px 0;
+}
+.Body{
+
+}
+.bodySP{
+  
+}
+.footer{
+  background: #b5b5b5e3;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+.Hinhchitiet{
+  width: 100%;
+}
+.ten-loai-san-pham{
+  font-size: 30px;
+    margin: 0 0 30px 0;
+    background: #c5e4fd;
+}
+
+
+/* --------------------- GIOHANG --------------------- */
+.body-giohang{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.nutthanhtoan{
+  text-align: center;
+  margin: 0 0 0 180px;
+}
+.nuttieptucmuahang{
+  text-align: center;
+  margin: 0 0px 0 50px;
+}
+.nutTTMHvaTT{
+  text-align: center;
+  
+}
+/* -------------------- DangKy -------------------------- */
+.formDKDN{
+  /* background: url("../public/Hinhxe02.png"); */
+  background-size: cover;
+  background-position-y: -80px;
+  font-size: 16px;
+}
+
+#wrapper{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form-login{
+  max-width: 400px;
+  background: rgba(0, 0, 0 , 0.8);
+  flex-grow: 1;
+  padding: 30px 30px 40px;
+  box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+  font-size: 25px;
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-group{
+  border-bottom: 1px solid #fff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.form-group i{
+  color: #fff;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.form-input{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #f5f5f5;
+  flex-grow: 1;
+}
+.form-input::placeholder{
+  color: #f5f5f5;
+}
+#eye i{
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.form-submit{
+  background: transparent;
+  border: 1px solid #f5f5f5;
+  color: #fff;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  transition: 0.25s ease-in-out;
+  margin-top: 30px;
+}
+.form-submit:hover{
+  border: 1px solid #54a0ff;
+}
+
+/* ------------------ GH -----------------------------------*/
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  
+  .bg-grey {
+  background-color: #eae8e8;
+  }
+
+
+/* ------------------ QuanLyTK ----------------------------- */
+.QLTK{
+  padding: 0 0 0 600px;
+}
+.MKM{
+  padding: 0 0 0 300px;
+}
+/* ---------------------------- QLDH -------------------------- */
+
+/* ---------------------------------QuanLyDonHang-------------------*/
+.card-stepper {
+  z-index: 0
+  }
+  
+  #progressbar-2 {
+  color: #455A64;
+  }
+  
+  #progressbar-2 li {
+  list-style-type: none;
+  font-size: 13px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  }
+  
+  #progressbar-2 #step1:before {
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  width: 37px;
+  margin-left: 0px;
+  padding-left: 0px;
+  }
+  
+  #progressbar-2 #step2:before {
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  width: 37px;
+  }
+  
+  #progressbar-2 #step3:before {
+  content: '\f058';
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  width: 37px;
+  margin-right: 0;
+  text-align: center;
+  }
+  
+  #progressbar-2 #step4:before {
+  content: '\f111';
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  width: 37px;
+  margin-right: 0;
+  text-align: center;
+  }
+  
+  #progressbar-2 li:before {
+  line-height: 37px;
+  display: block;
+  font-size: 12px;
+  background: #c5cae9;
+  border-radius: 50%;
+  }
+  
+  #progressbar-2 li:after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #c5cae9;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 15px;
+  z-index: -1;
+  }
+  
+  #progressbar-2 li:nth-child(1):after {
+  left: 1%;
+  width: 100%
+  }
+  
+  #progressbar-2 li:nth-child(2):after {
+  left: 1%;
+  width: 100%;
+  }
+  
+  #progressbar-2 li:nth-child(3):after {
+  left: 1%;
+  width: 100%;
+  background: #c5cae9 !important;
+  }
+  
+  #progressbar-2 li:nth-child(4) {
+  left: 0;
+  width: 37px;
+  }
+  
+  #progressbar-2 li:nth-child(4):after {
+  left: 0;
+  width: 0;
+  }
+  
+  #progressbar-2 li.active:before,
+  #progressbar-2 li.active:after {
+  background: #6520ff;
+  }
+/* ------------------------------- GH ------------------------------- */
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.quantity-input {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+}
+
+.quantity-button {
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-button:hover {
+  background-color: #0056b3;
+}
